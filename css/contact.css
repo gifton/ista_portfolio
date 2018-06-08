@@ -1,0 +1,25 @@
+#contact ul {
+	list-style: none;
+	margin-left: 12%;
+}
+
+#contact li {
+	margin: 2%;
+	text-align: center;
+	border: solid 1px black;
+	height: 250px;
+	display: inline-block;
+	margin-top: 5%;
+}
+
+#contact li p {
+	margin-top: 100px;
+}
+
+#contact a {
+	color : black;
+}
+
+#contact li:hover {
+	background: #9EA0C6;
+}

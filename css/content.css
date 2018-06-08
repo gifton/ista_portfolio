@@ -1,0 +1,52 @@
+#projects {
+	border: solid #DBC5D0 1px;
+	height: 80%;
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 25px;
+	display: block;
+}
+
+#about {
+	border: solid #F4ABAB 1px;
+	height: 80%;
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 25px;
+	display: none;
+}
+
+#contact {
+	border: solid black 1px;
+	height: 80%;
+	margin-left: 15%;
+	margin-top: 25px;
+	position: fixed;
+	display: none;
+	max-width: 90%
+}
+
+.scene {
+  padding-top: 75px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+  right:0;
+  height:800px;
+  width: 100%;
+  border-bottom-style: solid;
+}
+.scene > div {
+  /*position:fixed;*/
+  bottom:0;
+}
+
+.scene > div.clouds {
+  width:895px;
+  left:50%;
+  margin-left:-447px;
+  height:255px;
+  bottom:250px;
+  background:url(https://github.com/balajmarius/parallax/blob/master/img/clouds.png?raw=true) no-repeat center;
+}
