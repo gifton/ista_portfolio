@@ -4,7 +4,7 @@
 	margin-left: 10%;
 	position: absolute;
 	margin-top: 25px;
-	display: block;
+	display: none;
 }
 
 #about {
@@ -17,18 +17,17 @@
 }
 
 #contact {
-	border: solid black 1px;
+	border: solid green 1px;
 	height: 80%;
-	margin-left: 15%;
+	margin-left: 10%;
+	position: absolute;
 	margin-top: 25px;
-	position: fixed;
-	display: none;
-	max-width: 90%
+	display: block;
 }
 
 .scene {
   padding-top: 75px;
-  position:absolute;
+  position:fixed;
   bottom:0;
   left:0;
   overflow:hidden;
@@ -38,7 +37,7 @@
   border-bottom-style: solid;
 }
 .scene > div {
-  /*position:fixed;*/
+  position:fixed;
   bottom:0;
 }
 
