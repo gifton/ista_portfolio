@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #dadada;
+  background: #F9E8E0;
   font-family: 'Raleway', sans-serif;
   /*overflow-x: hidden*/
 }
@@ -14,6 +14,7 @@ body {
 	display: flex;
 	flex-direction: column;
   align-items: flex-start;
+  background: #F9E8E0;
 }
 
 .wrapper-upper {
@@ -32,7 +33,7 @@ body {
 
 .hello {
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 12%;
 }
 
 .hello h3 {
@@ -42,7 +43,12 @@ body {
   margin-right: 50px;
   padding-bottom: 5px;
 }
-.hello img {
+
+.ista-photo{
+  width: 170px;
+}
+
+.hello button img {
 	width: 40px;
 }
 

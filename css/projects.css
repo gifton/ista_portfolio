@@ -31,7 +31,7 @@
 }
 
 .eof:hover {
-	background-color: #D6FAC8;
+	background-color: #FF0084;
 	border: none;
 }
 
@@ -39,3 +39,38 @@
 	background-color: #6271fc;
 	border: none;
 }
+
+.inspoCard{
+	margin-top: -60px;
+}
+
+#secret:hover {
+	background: black;
+}
+#inspo1:hover{
+	background-color: #ea4c89;
+	color: white;
+}
+#inspo1 a {
+	color: black;
+}
+
+#inspo1 a:hover {
+	color: white;
+}
+#inspo2 a {
+	color: black;
+}
+
+#inspo2 a:hover {
+	color: white;
+}
+#inspo2:hover {
+	background-color: #0abab5;
+	color: white;
+}
+
+
+
+
+

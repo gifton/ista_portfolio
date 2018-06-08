@@ -13,6 +13,12 @@ var artwork_1 = '<a href="https://imgur.com/lH63aJq"><img src="https://i.imgur.c
 var artwork_2 = '<a href="https://imgur.com/Gn0lwMG"><img src="https://i.imgur.com/Gn0lwMG.jpg" style="height:100%" /></a>'
 var artwork_3 = '<a href="https://imgur.com/sbVvJb8"><img src="https://i.imgur.com/sbVvJb8.jpg" style="height:100%" /></a>'
 
+var photo_1 = '<img src="https://i.imgur.com/eNy24Jo.jpg" style="height:100%" />'
+var photo_2 = '<img src="https://i.imgur.com/aU8OHgY.jpg" style="height:100%" />'
+var photo_3 = '<img src="https://i.imgur.com/1DyOGlv.jpg" style="height:100%" />'
+
+var secret = '<canvas id="world" style="width: 100%; height: 100%"></canvas>'
+
 var popup = document.getElementById("popupMain")
 function openNav(pop_id) {
     document.getElementById('pop-display-overlay').innerHTML = "";
@@ -20,7 +26,6 @@ function openNav(pop_id) {
     if (pop_id === "youtube1") {
         document.getElementById("pop-display-overlay").innerHTML += youtube1
     } else if (pop_id === "youtube2") {
-        console.log("yt2")
         document.getElementById("pop-display-overlay").innerHTML += youtube1
     } else if (pop_id === "wesaturate") {
         document.getElementById('pop-display-overlay').innerHTML += wesaturate + wesaturate_about;
@@ -37,6 +42,18 @@ function openNav(pop_id) {
         document.getElementById('pop-display-overlay').innerHTML += artwork_2
     } else if (pop_id === "art3") {
         document.getElementById('pop-display-overlay').innerHTML += artwork_3
+    } else if (pop_id === "photo1") {
+        document.getElementById('pop-display-overlay').innerHTML += photo_1
+    } else if (pop_id === "photo2") {
+        document.getElementById('pop-display-overlay').innerHTML += photo_2
+    } else if (pop_id === "photo3") {
+        document.getElementById('pop-display-overlay').innerHTML += photo_3
+    }  else if (pop_id === "inspo1") {
+        document.getElementById('pop-display-overlay').innerHTML += photo_1
+    } else if (pop_id === "inspo2") {
+        document.getElementById('pop-display-overlay').innerHTML += photo_1
+    } else if (pop_id === "secret") {
+        document.getElementById('pop-display-overlay').innerHTML += secret
     }
 
     document.getElementById("myNav").style.width = "100%";
