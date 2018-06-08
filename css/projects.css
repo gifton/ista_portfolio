@@ -1,13 +1,41 @@
-.projects {
-	border: solid blue 2px;
-	width: 80%;
-	height: 80%;
+.collumn ul {
+	width: 90%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 100px;
+	padding: 10px;
 }
 
-.wrapper-upper {
-	background-color: #f9d0bd;
-	min-height: 100%;
-	min-width: 100%;
-	justify-content: center;
-	border-bottom: solid 1px white
+.collumn li{
+	height: 200;
+	border: solid #DFD0C9 1px;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.yt:hover {
+	background: #FF0000;
+	color: white;
+	border: none;
+}
+.photography:hover {
+	background: #FAB696;
+	border: none;
+}
+
+.artwork:hover {
+	background: #C6B8B2;
+	border: none;
+}
+
+.eof:hover {
+	background-color: #D6FAC8;
+	border: none;
+}
+
+.wesaturate:hover {
+	background-color: #6271fc;
+	border: none;
 }

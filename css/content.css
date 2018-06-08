@@ -1,43 +1,48 @@
 #projects {
-	border: solid #DBC5D0 1px;
+	border: solid #DFD0C9 1px;
 	height: 80%;
 	margin-left: 10%;
 	position: absolute;
 	margin-top: 25px;
-	display: none;
+	display: black;
 }
 
 #about {
-	border: solid #F4ABAB 1px;
 	height: 80%;
+	margin-left: 10%;
+	position: absolute;
+	margin-top: 25px;
+	display: none;
+	overflow: hidden;
+	border: solid #DBC5D0 1px;
+	padding: 40px;
+	background: url('https://ws.imgix.net/photos/t3ef3k_gifton.jpg?w=1000&dpr=2&auto=compress&q=80&cs=tinysrgb&ixlib=js-1.0.6') no-repeat center;
+	background-size: 95% 95%;
+}
+
+#contact {
+	border: solid #DBC5D0 1px;
+	min-height: 80%;
 	margin-left: 10%;
 	position: absolute;
 	margin-top: 25px;
 	display: none;
 }
 
-#contact {
-	border: solid green 1px;
-	height: 80%;
-	margin-left: 10%;
-	position: absolute;
-	margin-top: 25px;
-	display: block;
-}
-
 .scene {
-  padding-top: 75px;
-  position:fixed;
+  /* Safari 6.0 - 9.0 */
   bottom:0;
+  z-index: 100;
   left:0;
   overflow:hidden;
   right:0;
   height:800px;
   width: 100%;
-  border-bottom-style: solid;
-}
+  display: flex;
+  padding-bottom: -10px;
+  }
 .scene > div {
-  position:fixed;
+  position:absolute;
   bottom:0;
 }
 

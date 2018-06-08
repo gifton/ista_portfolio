@@ -8,11 +8,14 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/projects.css">
-  <link rel="stylesheet" type="text/css" href="css/content.css">
+  <link rel="stylesheet" href="css/content.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/overlay.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="js/main.js"></script>
   <script src="js/clouds.js"></script>
+  <script src="js/popup.js"></script>
 </head>
 
 <body>
@@ -28,23 +31,93 @@
           </div>
       </div>   
       <div class="wrapper-lower" id="wrapper-lower">
+        <div id="myNav" class="overlay">
+          
+          <div class="overlay-content">
+            <span onclick="closeNav()" class="closebtn">X</span>
+            <div class="overlay-content-content" id="pop-display-overlay">
+              no
+            </div>
+          </div>
+        </div>
         <div class="topnav">
-          <button class="navButton" onclick="show_projects()" id="project-btn"> Project </button>
+          <button class="navButton" onclick="show_projects()" id="project-btn"> Works </button>
           <button class="navButton" onclick="show_about()" id="about-btn"> About</button>
           <button class="navButton" onclick="show_contact()" id="contact-btn"> Contact</button>
         </div>
-
-        <div id="projects" class="col-lg-10"></div>
-        <div id="about" class="col-lg-10">
-          <div class="scene">
-            <div data-offset="90" class="clouds parallax" id="parallax"> </div>
+        <!-- youtuvb : 2 videos,  artowrk: 3-->
+        <div id="projects" class="col-lg-10 projects">
+          <div class="collumn project-card">
+            <ul>
+              <!-- youtube -->
+              <li class="col-lg-2 col-md-5 col-sm-10 yt1 yt"> <span onclick="openNav(this.id)" id="youtube1"> Youtube</span> </li>
+              <li class="col-lg-2 col-md-5 col-sm-10 yt2 yt"> <span onclick="openNav(this.id)" id="youtube2"> Youtube</span> </li>
+              <!-- artwork -->
+              <li class="col-lg-2 col-md-5 col-sm-10 artwork artwork1"><span onclick="openNav(this.id)" id="art1"> Art</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 artwork artwork2"><span onclick="openNav(this.id)" id="art2"> Art</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 artwork artwork3"><span onclick="openNav(this.id)" id="art3"> art</span></li>
+              <!-- endOfphrase -->
+              <li class="col-lg-2 col-md-5 col-sm-10 eof eof1"><span onclick="openNav(this.id)" id="eof1"> End</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 eof eof2"><span onclick="openNav(this.id)" id="eof2"> Of</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 eof eof3"><span onclick="openNav(this.id)" id="eof3"> Phrase</span></li>
+              <!-- wesaturate -->
+              <li class="col-lg-2 col-md-5 col-sm-10 wesaturate"><span onclick="openNav(this.id)" id="wesaturate"> Wesaturate</span></li>
+              <!-- photogtaphy -->
+              <li class="col-lg-2 col-md-5 col-sm-10 photography photos1"><span onclick="openNav(this.id)" id="photo1"> Photo</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 photography photos2"><span onclick="openNav(this.id)" id="photo2"> Photo</span></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 photography photos3"><span onclick="openNav(this.id)" id="photo3"> Photo</span></li>
+              <!-- secret links -->
+              <li class="col-lg-2 col-md-5 col-sm-10 secret secret1"></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 secret secret2"></li>
+              <li class="col-lg-2 col-md-5 col-sm-10 secret secret3"></li>
+            </ul>
           </div>
+        </div>
+        <div id="about" class="col-lg-10">
+          <div class = "monologue">
+            <hr/>
+           <p> I am a visual designer who has a creative eye for interactivity. I want to create aesthetically appealing projects that are meaningful to me and others. I would like to build and inspire others to establish and grow their artistic abilities. I would also like my work to incorporate and portray the importance of equality and sustainability and to influence others.</p> 
+           
+          </div>
+          <div class = "more-me">
+            <ul>
+              <hr/>
+              <li>
+                Take a look at |<a href="#"> what im reading currently</a>
+              </li>
+              <li>
+                Peek at my |<a href="#"> Github here</a> 
+              </li>
+              <li>
+                Mosey on over to my |<a href="#"> favorite subreddit</a>
+              </li>
+            </ul>
+            <ul>
+              <h3>Please donate to charity</h3>
+              <li>
+                <a href="https://giveto.seattlechildrens.org/changealife">Seattle Childrens</a>
+              </li>
+              <li>
+                <a href="https://action.aclu.org/donate-aclu?ms=web_horiz_nav_hp">ACLU</a>
+              </li>
+              <li>
+                <a href="https://www.battleforthenet.com/">Battle for the net</a>
+              </li>
+            </ul>
+          </div>
+          <div class="scene">
+              <div data-offset="90" class="clouds parallax" id="parallax"> </div>
+              <div class='hrdiv'>
+                <hr/>
+              </div>
+          </div>
+
         </div>
         <div id="contact" class="col-lg-10">
 
           <ul class="col-lg-10">
             <a href="https://www.facebook.com/ista.mencavage" clas="facebook"><li class="col-md-5"><p>Facebook</p></li></a>
-            <a href="https://www.facebook.com/ista.mencavage" clas="Instagram"><li class="col-md-5"><p>Instagram</p></li></a>
+            <a href="https://www.facebook.com/ista.mencavage" id="cooking"><li class="col-md-5 cooking"><img src="img/spatula.png"></p></li></a>
             <a href="https://www.linkedin.com/in/ista-mencavage-b84999138" clas="linkedin"><li class="col-md-5"><p>LinkedIn</p></li></a>
             <a href="mailto:ista.kirana@gmail.com" clas="mail"><li class="col-md-5"><p>Email</p></li></a>
           </ul>
@@ -54,3 +127,19 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
