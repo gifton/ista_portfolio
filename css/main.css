@@ -15,24 +15,7 @@ html {
   background-color: #E5E4FE;
 }
 
-.header {
-	width: 100%;
-	height: 100px;
-	color: #DF9C9D;
-	text-align: center;
-  padding-left: 20px;
-}
 
-.header img {
-	max-height: 150px;
-	max-width: 150px;
-	height: auto; 
-  width: auto; 
-	background-size: contain;
-	border-radius: 78px;
-  border: solid white 10px;
-	margin-bottom: 25px;
-}
 
 h6 {
 	font-weight: 200  !important;
@@ -46,23 +29,13 @@ h1 {
 	justify-content: left;
 	margin-top: 100px;
 	background-color: #E5E4FE;
-  
+  margin-bottom: 20px;
 } 
-
-.about-card {
-  margin: 15px;
-  min-width: 150px;
-  -webkit-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
-}
 
 .post-module {
   position: relative;
   z-index: 1;
   display: block;
-  /*background: #FFFFFF;*/
-  min-width: 270px;
   height: 470px;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -143,10 +116,9 @@ h1 {
 }
 .post-module .post-content .category {
   position: absolute;
-  top: -34px;
-  left: 0;
-  background: #DF9C9D;
-  background: linear-gradient(90deg, rgb(223,156,157,1) 0%, rgba(110,102,224,1) 100%);
+  background: linear-gradient(90deg, #DF9C9D 0%, rgba(110,102,224,1) 100%);
+  top: -24px;
+  left: 20px;
   padding: 10px 15px;
   color: #FFFFFF;
   font-size: 14px;
@@ -204,11 +176,11 @@ h1 {
 }
 .about{
   width: 500px;
-  color: #6271fc;
+  color: black;
   font-weight: 400 300;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 45px;
 }
 .about p {
   border-top: solid white 2px;
@@ -220,37 +192,7 @@ h1 {
   clear: both;
 }
 .container .column {
-  width: 50%;
-  /*padding: 0 25px;*/
-  /*-webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
   float: left;
-}
-
-@media screen and (max-width: 600px) {
-  .container .column {
-    padding: 0 25px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    float: right;
-  }
-  .container {
-    width: 100%;
-  }
-  .column {
-    width: 500px !important;=
-  }
-  .about {
-    width: 300px;
-  }
-  .main-wrapper {
-    background-color: none;
-    min-width: 600px;
-    display: flex;
-
-  }
 }
 
 .container .column .card-title {
@@ -265,20 +207,6 @@ h1 {
   background-color: red;
 }
 
-.info {
-  border-left: solid white 1px;
-  border-right: solid white 1px;
-  text-align: center;
-  width: 200px;
-  margin: 0 auto;
-}
-.info a {
-  color: #6271fc;
-  text-decoration: none;
-}
-.info i {
-  color: red;
-}
 .container {
   width: 300px;
   margin: 50px auto;
@@ -306,6 +234,7 @@ h1 {
 
 .contact-body p {
   font-size: 25px;
+  color: #DF9C9D;
 }
 .contact-body {
   font-size: 14px;
@@ -328,7 +257,6 @@ h1 {
 
 ul {
   list-style: none;
-  margin-left: -40px;
   display: inline-grid;
   height: 500px;
   max-width: 300px;
@@ -340,10 +268,9 @@ ul {
   margin-top: 5px;
   margin-left: 10px;
   background-color: lightgray;
-  /*border-right: solid black 1px;*/
 }
 li h2 {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 
 #linkdin:hover {
@@ -353,6 +280,7 @@ li h2 {
 }
 #reading:hover {
   color: white;
+  background-color: rgb(255,153,0);
   background: linear-gradient(90deg, rgb(255,153,0,1) 0%, rgb(196,204,231, 0.8) 100%);
 }
 #email-me:hover {
@@ -377,13 +305,17 @@ li h2 {
 
 .button {
   width: 100%;
-  background: rgba(110,102,224,1);
   color: white;
   height: 3.5rem;
   border-radius: 3px;
   text-align: center;
   margin-top: 10px;
+  background: rgba(110,102,224,1);
+  height: 40px;
   /*opacity: 0.55;*/
+}
+.button a {
+  height: 70px !important;
 }
 
 .button:hover {
@@ -408,7 +340,7 @@ li h2 {
   background: #DF9C9D;
   background: linear-gradient(90deg, rgb(223,156,157,1) 0%, rgba(110,102,224,1) 100%);
 }
-.header1 {
+.links-header {
   background: #DF9C9D;
   color: white;
   height: 12.5%;
@@ -423,8 +355,9 @@ li h2 {
 .header-icon i {
   font-size: 42px;
 }
-.header1 h2 {
+.links-header h2 {
  margin: 0 auto;
+
  margin-top: 15px;
 }
 
@@ -462,59 +395,31 @@ li h2 {
   /*color: grey;*/
 }
 
-.charity-body {
-  margin-top: 15px;
-  background-image: url("https://ws.imgix.net/photos/6vynie_gifton.jpg?w=1000&dpr=2&auto=compress&q=80&cs=tinysrgb&ixlib=js-1.0.6");
-  background-repeat: no-repeat;
-  background-size: 350px 625px;
-}
-
-.header2 h1{
-  color: #444 !important;
-  padding-top: 15px;
-  padding-left: 10px;
-}
-
-.header2 {
-  height: 12.5%;
-  border-radius: 5px 5px 0px 0px;
-  /*border: solid white 2px;*/
-}
-
-.charity-body .link-card {
-  color: black;
-  background-color: rgb(196,204,231, 0.85)
-}
 .link-card img {
   width: 50px;
   height: 50px;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 10px;
   border-radius: 5px;
 }
 .sendEmail {
-  background-color: rgb(196,204,231,0.65);
-  color: white;
+  background-color: rgb(196,204,231,0.25);
+  color: #DF9C9D !important;
   height: 60px;
   width: 90%;
   margin: 0 auto;
 }
 .sendEmail a {
   text-decoration: none;
-  color: white;
+  color: #DF9C9D;
   font-size: 32px;
 }
-.bftn-box {
-  background: linear-gradient(106deg,#1f5ad0,#681cb3 36%,#a53b5b 76%);
-  width: 50px;
-  height: 50px;
-  margin-left: 20px;
-  margin-top: 10px;
-  border-radius: 5px;
-}
+
 .contact-form {
   position: relative;
   width: 320px;
+  border-color: #DF9C9D;
+  color: #DF9C9D;
   margin: 0 auto;
   padding: 20px;
   background: none;
@@ -549,10 +454,11 @@ li h2 {
   margin: 0;
   padding: 0 6px;
   border: none;
-  border-bottom: solid white 1px;
+  border-bottom: solid #DF9C9D 2px;
   outline: none;
   background: transparent;
-  color: #444;
+  color: #DF9C9D !important;
+  border-color: #DF9C9D;
   margin-bottom: 30px;
 }
 
@@ -560,7 +466,7 @@ li h2 {
   min-height: 38px;
   height: 138px;
   margin: 2px 0 3px;
-  border: solid white 1px;
+  border: solid #DF9C9D 2px;
   overflow-y: hidden;
   resize: none;
   -webkit-transition: height .1s;

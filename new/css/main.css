@@ -1,0 +1,40 @@
+.hello img {
+	width: 200px;
+	border-style: none;
+    border-radius: 100px;
+    border: solid white 5px;
+}
+.hello button {
+	background: none;
+	border: none;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    color: #F4F5F2;
+    font-size: 300px;
+    font-weight: 700;
+}
+.top-right {
+    position: absolute;
+    top: 40px;
+    right: 90px;
+    color: #F3738F;
+}
+.top-right img {
+	margin-left: 50px;
+}
+.wrapper-upper {
+    height: 100%;
+    width: 100%;
+    background: #F1BAC6;
+}
+.wrapper-lower {
+    margin-top: 300px;
+}
+body {
+    background: #F4F5F2;
+}
+

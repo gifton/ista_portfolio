@@ -1,0 +1,76 @@
+.collumn ul {
+	width: 90%;
+	height: 90%;
+	display: inline-block;
+	margin-left: 100px;
+	padding: 10px;
+}
+
+.collumn li{
+	height: 200;
+	border: solid black 1px;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	padding-top: 50px
+}
+
+.yt:hover {
+	background: #FF0000;
+	color: white;
+	border: none;
+}
+.photography:hover {
+	background: #FAB696;
+	border: none;
+}
+
+.artwork:hover {
+	background: #F1BAC6;
+	border: none;
+}
+
+.eof:hover {
+	background-color: #FF0084;
+	border: none;
+}
+
+.wesaturate:hover {
+	background-color: #6271fc;
+	border: none;
+}
+
+.inspoCard{
+	margin-top: -60px;
+}
+
+#secret:hover {
+	background: black;
+}
+#inspo1:hover{
+	background-color: #ea4c89;
+	color: white;
+}
+#inspo1 a {
+	color: black;
+}
+
+#inspo1 a:hover {
+	color: white;
+}
+#inspo2 a {
+	color: black;
+}
+
+#inspo2 a:hover {
+	color: white;
+}
+#inspo2:hover {
+	background-color: #0abab5;
+	color: white;
+}
+
+
+
+
+

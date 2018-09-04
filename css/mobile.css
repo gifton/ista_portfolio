@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 600px) {
+  .post-module {
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    width: 500px;
+  }
+  .main-wrapper {
+    min-width: 100%;
+    border-top: solid white 1px;
+  }
+  .header {
+    width: 100%;
+    background-color: #DF9C9D !important;
+  }
+  html {
+    min-width: 625px;
+  }
+  .link-card a{
+    font-size: 35px;
+  }
+  .header h1 {
+    color: white !important;
+  }
+  h6 {
+    color: white !important;
+  }
+  body {
+    background-color: #DF9C9D !important;
+  }
+  .button {
+    background-color: #DF9C9D;
+  }
+}

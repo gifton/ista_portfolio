@@ -1,6 +1,5 @@
 .pictures-wrapper {
 	border: solid white 3px;
-	border-radius: 10px;
 	background-color: #E5E4FE;
 	min-height: 400px;
 	width: 100%;
@@ -9,12 +8,10 @@
 	display: none;
 }
 .back-wrapper {
-	margin: 40px;
 	font-size: 64px;
 }
 .back-wrapper i {
-	border: solid red 2px;
-	font-size: 64px;
+	font-size: 44px;
 }
 
 .back-wrapper button {
@@ -26,9 +23,14 @@
 	border: none;
 	background: none;
 }
-.photo-main-wrapper {
-	background: url('https://lh3.google.com/u/0/d/1x5xzkNoMP2qfy4BiQaG_B6TDzIP9De1Z=w3001-h1762-iv1');
-	width: 285px;
-	border: solid white 3px;
-	border-radius: 5px;
+
+.photo-container {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color: #6271fc;
+}
+.back-button {
+	font-size: 20px;
+	color: white;
 }
