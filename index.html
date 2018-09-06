@@ -5,10 +5,12 @@
 	<title>Ista</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/pictures.css">
+	<link rel="stylesheet" type="text/css" href="css/art.css">
 	<link rel="stylesheet" type="text/css" href="css/charity.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/projects.css">
+	<link rel="stylesheet" type="text/css" href="css/inspirations.css">
 	<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" data-auto-replace-svg="nest"></script>
 	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
 	<script src="js/main.js"></script>
@@ -24,13 +26,15 @@
 		<img src="img/ista.jpg">
 	</div>
 	<div class="main-wrapper">
-
-		<div class="about">
-			<p>I am a visual designer who has a creative eye for interactivity. I would like to build and inspire others to establish and grow their artistic abilities. I want to portray the importance of equality and sustainability and to influence others to live a more empathetic life.</p>
+		<div id="welcome-content">
+			<div class="about">
+			<p>I am a designer who has a creative eye for interactivity. I would like to build and inspire others to establish and grow their artistic abilities. I want to portray the importance of equality and sustainability and to influence others to live a more empathetic life.</p>
 		</div>
 		<div class="info">
 			<span> Images by <a href='https://wesaturate.com'>Wesaturate  </a><i class='fa fa-heart animated infinite pulse'></i></span>
 		</div>
+		</div>
+		
 		<div class="container" id="main-container">
 			<!-- Normal card-->
 			<div class="column col-md-4">
@@ -47,7 +51,7 @@
 						<h2 class="sub_title">Free creativity</h2>
 						<p class="description">I love getting the opportunity to make something from scratch.  The chance to form something from nothing.  Here's a few things that are just that.</p>
 						<div class="button ">
-						  <a href="#" class="picture-button">Take a look</a>
+						  <a href="#" class="art-button">Take a look</a>
 						</div>
 						<div class="post-meta"><span class="timestamp">
 							<i class="fa fa-clock-">o</i> 3 months ago</span><span class="comments"><i class="fas fa-camera"></i><a href="#"> 12 items</a></span>
@@ -72,7 +76,7 @@
 						<h2 class="sub_title">Visual dessert</h2>
 						<p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
 						<div class="button">
-						  <a href="#">Take a look</a>
+						  <a href="#" class="inspirations-button">Take a look</a>
 						</div>
 						<div class="post-meta"><span class="timestamp">
 							<i class="fa fa-clock-">o</i> 6 mins ago</span><span class="comments"><i class="fas fa-file-alt"></i><a href="#"> 6 items</a></span>
@@ -90,11 +94,11 @@
 				  <!-- Post Content-->
 				  <div class="post-content">
 				    <div class="category">Projects</div>
-				    <h1 class="title">City Lights in New York</h1>
+				    <h1 class="title">Curated Display</h1>
 				    <h2 class="sub_title">The city that never sleeps.</h2>
 				    <p class="description">New York, the largest city in the U.S., is an architectural marvel with plenty of historic monuments, magnificent buildings and countless dazzling skyscrapers.</p>
 				    <div class="button">
-				      <a href="#">Take a look</a>
+				      <a href="#" class="projects-button">Take a look</a>
 				    </div>
 				    <div class="post-meta"><span class="timestamp"><i class="fa fa-clock-">o</i> June 2017</span><span class="comments"><i class="fas fa-file-alt"></i><a href="#"> 5 projects</a></span></div>
 				  </div>
@@ -123,23 +127,20 @@
 			<div class="column col-md-4">
 				<div class="post-module link-body">
 					<div class="links-header">
-						<div class="header-icon">
-							<i class="far fa-grin"></i>
-						</div>
-						<h2>recomended links</h2>
+						<p>recomended links</p>
 					</div>
 					<div class="links-content">
 						<div class="linkedin-card link-card" id="linkdin">
-							<i class="fab fa-linkedin"></i> <a href="linkedin.com">Linkedin</a>
+							<i class="fab fa-linkedin"></i> <a href="https://goo.gl/UobxBa">Linkedin</a>
 						</div>
 						<div class="reading-card link-card" id="reading">
-							<i class="fas fa-book"></i> <a href="amazon.com">What I'm reading</a>
+							<i class="fas fa-book"></i> <a href="https://goo.gl/EY7Ztp">What I'm reading</a>
 						</div>
 						<div class="facebook-card link-card" id="facebook">
-							<i class="fab fa-facebook"></i> <a href="facebook.com">Facebook</a>
+							<i class="fab fa-facebook"></i> <a href="https://facebook.com">Facebook</a>
 						</div>
 						<div class="link-card" id="reddit">
-							<i class="fas fa-grin-hearts"></i> <a href="reddit.com/rarepuppers">Emergency cute link</a>
+							<i class="fas fa-grin-hearts"></i> <a href="https://reddit.com/rarepuppers">Emergency cute link</a>
 						</div>
 					</div>
 				</div>
@@ -147,55 +148,136 @@
 			<div class="column col-md-4">
 				<div class="post-module charity-body charity">
 					<div class="charity-header">
-						<h3>Please donate to charity</h3>
+						<p>Please donate to charity</p>
 					</div>
 					<div class="charity-content">
 						<div class="seattle-card charity-card">
-							<i class="fas fa-hospital-alt"></i> <a href="facebook.com">Seattle Childrens</a>
+							<i class="fas fa-hospital-alt"></i> <a href="https://seattlechildrens.org">Seattle Childrens</a>
 						</div>
-						<div class="fred-card charity-card childrens">
-							<div class="bftn-box childrens-img"></div>
-							<a href="reddit.com/rarepuppers">Fred Hutchenson</a>
+						<div class="fred-card charity-card fred-hutch">
+							<img src="img/structure/home/fred.svg"/>
+							<a href="https://www.reddit.com/r/rarepuppers/">Fred Hutchenson</a>
 						</div>
 						<div class="aclu-card charity-card">
-							<i class="fas fa-bell"></i> <a href="linkedin.com">ACLU</a>
+							<i class="fas fa-bell"></i> <a href="https://www.aclu.org/">ACLU</a>
 						</div>
 						<div class="battle-card charity-card">
-							<div class="bftn-box"></div> <a href="amazon.com">Battle for the net</a>
+							<div class="bftn-box"></div> <a href="https://www.battleforthenet.com/">Battle for the net</a>
 						</div>
 					</div>
 				</div>
 			</div>
     	</div>
 	</div>
-	<div class="pictures-wrapper" id="pictures-wrapper">
+	<div class="art-wrapper" id="art-wrapper">
 		<div class="back-wrapper">
 			<button class="back-button"><i class="fas fa-chevron-circle-left"></i></button>
+		</div>
 			<div class="photo-main-wrapper">
 				<div class="photo photo-container photo1">
-					<img src="" alt="ista's first photo!">
+					<img src="img/structure/art/photo1.jpg" alt="ista's first photo!">
 				</div>
 				<div class="photo photo-container photo1">
-					<img src="" alt="ista's second photo!">
+					<img src="img/structure/art/photo2.jpg" alt="ista's second photo!">
 				</div>
 				<div class="photo photo-container photo1">
-					<img src="" alt="ista's third photo!">
+					<img src="img/structure/art/photo3.jpg" alt="ista's third photo!">
 				</div>
 				<div class="photo photo-container photo1">
-					<img src="" alt="ista's fourth photo!">
+					<img src="img/structure/art/photo4.jpg" alt="ista's fourth photo!">
 				</div>
 				<div class="photo photo-container photo1">
-					<img src="" alt="ista's fifth photo!">
-				</div>
-				<div class="photo photo-container photo1">
-					<img src="" alt="ista's sixth photo!">
-				</div>
-				<div class="photo photo-container photo1">
-					<img src="" alt="ista's seventh photo!">
+					<img src="https://ws.imgix.net/photos/hdz0lc_ssns.jpg?w=1000&dpr=2&auto=compress&q=80&cs=tinysrgb&ixlib=js-1.0.6" alt="ista's seventh photo!">
 				</div>
 			</div>
 		</div>	
 	</div>
+	<div class="projects-wrapper" id="projects-wrapper">
+		<div class="back-wrapper">
+			<button class="back-button"><i class="fas fa-chevron-circle-left"></i></button>
+		</div>
+		<div class="projects-main-wrapper">
+			<div class="project project-container">
+				<img src="img/structure/projects/endofphrase.png" alt="Wesaturate.com">
+				<p>End of phrase combined classic fast-paced call-and-response games with online connectivity. </p>
+			</div>
+			<div class="project project-container">
+				<img src="img/wesaturate.png" alt="ista's second photo!">
+				<p>Wesaturate is a photo sharing pllatform that allows users to share, download, and reshare edits of RAW photos </p>
+			</div>
+			<div class="project project-container">
+				<img src="img/structure/projects/giftonio.png" alt="ista's third photo!">
+				<p> <a href="http://gifton.io">gifton.io</a> </p>
+			</div>
+		</div>
+	</div>	
+	<div class="inspirations-wrapper" id="inspirations-wrapper">
+		<div class="back-wrapper">
+			<button class="back-button"><i class="fas fa-chevron-circle-left"></i></button>
+		</div>
+
+		<div class="inspiration-content">
+			<div class="col-sm-4 inspiration-container">
+				<img src="img/structure/inspirations/obamas.jpg">
+				<div class="inspiration-link">
+					<a href="https://barackobabma.com">The Obamas</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 inspiration-container">
+				<img src="img/structure/inspirations/tiffany.jpg">
+				<div class="inspiration-link">
+					<a href="https://dribbble.com/yoga">Francesca Amfitheatrof</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4 inspiration-container">
+				<img src="img/structure/inspirations/dribbble.jpg">
+				<div class="inspiration-link">
+					<a href="https://dribbble.com/yoga">Yoga Perdana</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END CONTENT -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 	<script  src="js/main.js"></script>
 

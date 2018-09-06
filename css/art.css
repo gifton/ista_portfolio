@@ -1,0 +1,44 @@
+.art-wrapper {
+	border: solid white 3px;
+	background-color: #E5E4FE;
+	min-height: 400px;
+	width: 100%;
+	color: darkgrey;
+	margin: 0 auto;
+	display: none;
+	padding-top: 100px;
+}
+.back-wrapper {
+	font-size: 64px;
+}
+.back-wrapper i {
+	font-size: 44px;
+}
+
+.back-wrapper button {
+	border: none;
+	background: none;
+}
+
+.photo-container {
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	display: flex;
+}
+.back-button {
+	font-size: 20px;
+	color: darkgrey;
+	position: fixed;
+}
+.photo img {
+	width: 80%;
+	height: 60%;
+	border-radius: 5px;
+}
+.photo p {
+	font-size: 18px;
+	padding-left: 10px;
+	color: darkgrey;
+	margin-top: 10%;
+}

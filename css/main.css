@@ -340,6 +340,9 @@ li h2 {
   background: #DF9C9D;
   background: linear-gradient(90deg, rgb(223,156,157,1) 0%, rgba(110,102,224,1) 100%);
 }
+.links-header p {
+  margin: 0 auto;
+}
 .links-header {
   background: #DF9C9D;
   color: white;

@@ -33,4 +33,6 @@
   .button {
     background-color: #DF9C9D;
   }
-}
+  .photo p {
+    margin-top: 0;
+  }

@@ -1,7 +1,7 @@
 .bftn-box {
   background: linear-gradient(106deg,#1f5ad0,#681cb3 36%,#a53b5b 76%);
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   margin-left: 30px;
   margin-top: 10px;
   border-radius: 5px;
@@ -9,14 +9,11 @@
 
 .charity-body {
   margin-top: 15px;
-  background-image: url("https://ws.imgix.net/photos/sqyg5c_polarhazee.jpg?w=1000&dpr=2&auto=compress&q=80&cs=tinysrgb&ixlib=js-1.0.6");
-  background-repeat: no-repeat;
-  background-size: 600px 725px;
+  background: #DF9C9D;
 }
-h3{
-  border-bottom: solid white 1px;
-  color: white !important;
-  padding-top: 15px;
+.charity-body p, .link-body p{
+  font-size: 25px;
+  color: rgba(110,102,224,1) !important;
   padding-left: 10px;
   padding-bottom: 3px;
 
@@ -27,15 +24,19 @@ h3{
   border-radius: 5px 5px 0px 0px;
 }
 
-.childrens-img {
-	background: url('http://www.executivediversity.com/wp-content/uploads/2016/11/Fred-Hutch-Client-Logos-1000px-square-300x300.jpg');
+.fred-hutch-img {
+	background: url("img/structure/home/fred.svg");
 	background-repeat: no-repeat;
-  	background-size: 50px 50px;
+  background-size: 35px 35px;
+}
+.fred-hutch img {
+  width: 60px;
+  color: rgba(110,102,224,1);
+  padding-left: 30px;
 }
 
 .charity-card  {
-	height: 100px;
-	width: 90%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
  	display: inline-flex;
@@ -43,16 +44,15 @@ h3{
 
 .charity-card i {
 	padding-right: 50px;
-	font-size: 50px;
+	font-size: 35px;
 	margin-left: 30px;
-	color: white;
+	color: rgba(110,102,224,1);
 }
 
 .charity-card a {
 	margin: 0 auto;
 	text-align: right;
 	width: 70%;
-	color: white;
+	color: rgba(110,102,224,1);
 	font-size: 25px;
-    text-shadow: 0 2px 15px rgba(0,0,0,.45)
 }

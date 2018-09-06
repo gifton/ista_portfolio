@@ -1,0 +1,26 @@
+.inspirations-wrapper {
+	border: solid white 3px;
+	background-color: #E5E4FE;
+	min-height: 400px;
+	width: 100%;
+	color: darkgrey;
+	margin: 0 auto;
+	display: none;
+	padding-top: 100px;
+}
+
+.inspirations-container {
+	background-color: lightblue;
+}
+
+.inspiration-container img {
+	width: 80px;
+	border-bottom: 2px black solid;
+	padding-bottom: 5px;
+}
+
+.inspirations-container a {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
