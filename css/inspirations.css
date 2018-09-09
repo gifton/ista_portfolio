@@ -1,26 +1,39 @@
 .inspirations-wrapper {
-	border: solid white 3px;
-	background-color: #E5E4FE;
 	min-height: 400px;
 	width: 100%;
 	color: darkgrey;
 	margin: 0 auto;
-	display: none;
 	padding-top: 100px;
+	display: none;
 }
 
-.inspirations-container {
+.inspiration-content {
+	display: flex;
+
+	margin-top: 100px;
+	align-content: middle;
+}
+
+.inspiration-container {
 	background-color: lightblue;
+	border-radius: 5px;
+	height: 100px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.inspiration-container:hover {
+	background-color: #6271fc;
 }
 
 .inspiration-container img {
 	width: 80px;
-	border-bottom: 2px black solid;
-	padding-bottom: 5px;
+	border-radius: 5px;
 }
 
-.inspirations-container a {
+.inspiration-container a {
 	color: black;
 	text-decoration: none;
-	text-align: center;
+	padding-left: 20px;
 }

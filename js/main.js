@@ -21,7 +21,7 @@ $(window).load(function() {
 
 //display inspirations
 $(window).load(function() {
-  $('inspirations-button').click(function() {
+  $('.inspirations-button').click(function() {
    $('#main-container').fadeOut('slow', function(){
       $('#welcome-content').fadeOut('slow', function() {
         $('#inspirations-wrapper').fadeIn('slow');
