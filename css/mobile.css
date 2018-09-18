@@ -7,32 +7,74 @@
   .contact-form {
     width: 500px;
   }
+
   .main-wrapper {
     min-width: 100%;
     border-top: solid white 1px;
   }
+
   .header {
     width: 100%;
     background-color: #DF9C9D !important;
   }
+
   html {
     min-width: 625px;
   }
+
   .link-card a{
     font-size: 35px;
   }
+
   .header h1 {
     color: white !important;
   }
+
   h6 {
     color: white !important;
   }
+
   body {
     background-color: #DF9C9D !important;
+    overflow-x: hidden;
   }
+
   .button {
     background-color: #DF9C9D;
   }
+
   .photo p {
     margin-top: 0;
   }
+
+  .inspiration-link {
+    display: none;
+  }
+
+  .inspiration-container {
+    width: 110px !important;
+  }
+  .inspiration-container img {
+    margin-left: 0px !important;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

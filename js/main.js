@@ -12,7 +12,7 @@ $(window).load(function() {
 $(window).load(function() {
   $('.art-button').click(function() {
    $('#main-container').fadeOut('slow', function(){
-      $('#welcome-content').fadeOut('slow', function() {
+      $('#welcome-content').fadeOut('fast', function() {
         $('#art-wrapper').fadeIn('slow');
       });
     });
@@ -22,7 +22,7 @@ $(window).load(function() {
 //display inspirations
 $(window).load(function() {
   $('.inspirations-button').click(function() {
-   $('#main-container').fadeOut('slow', function(){
+   $('#main-container').fadeOut('fast', function(){
       $('#welcome-content').fadeOut('slow', function() {
         $('#inspirations-wrapper').fadeIn('slow');
       });
@@ -33,7 +33,7 @@ $(window).load(function() {
 // display projects
 $(window).load(function() {
   $('.projects-button').click(function() {
-   $('#main-container').fadeOut('slow', function(){
+   $('#main-container').fadeOut('fast', function(){
       $('#welcome-content').fadeOut('slow', function() {
         $('#projects-wrapper').fadeIn('slow');
       });

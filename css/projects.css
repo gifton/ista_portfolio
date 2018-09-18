@@ -31,7 +31,7 @@
 	color: darkgrey;
 	position: fixed;
 }
-.project img {
+.project img, .project video{
 	width: 80%;
 	height: 60%;
 	border-radius: 5px;

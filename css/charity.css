@@ -3,6 +3,7 @@
   color: white !important;
   padding-left: 10px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 
@@ -11,13 +12,13 @@
 }
 .charity-header {
   color: white;
-  height: 12.5%;
+  height: 12%;
   font-size: 25px;
   display: flex;
 }
 
 .charity-card {
-  height: 50px;
+  height: 90px;
   margin: 10px;
   border-radius: 5px;
   background-color: rgb(196,204,231, 0.45);
